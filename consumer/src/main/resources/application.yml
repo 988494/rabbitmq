@@ -1,0 +1,20 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: product
+  rabbitmq:
+    host: 120.79.93.16
+    port: 5672
+    username: guest
+    password: guest
+  datasource:
+    url: jdbc:mysql://localhost:3306/test?useSSL=false
+    password: admin
+    username: root
+    driver-class-name: com.mysql.jdbc.Driver
+  redis:
+    host: 120.79.93.16
+    port: 6379
+mq:
+  routing-key: role
